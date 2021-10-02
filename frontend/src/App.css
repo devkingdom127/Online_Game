@@ -1,0 +1,18 @@
+.content {
+    position: relative;
+    z-index: 10;
+}
+
+.blockStat {
+    margin-bottom: 70px;
+}
+
+.flex-s-c {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-home-left {
+    margin: 0px -2px;
+    position: relative;
+}

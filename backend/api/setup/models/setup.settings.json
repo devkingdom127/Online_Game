@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "setups",
+  "info": {
+    "name": "Setup"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "instructions": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.top-list {
+    height: 41px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.top-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-list:hover {
+    background-color: #171c35;
+    height: 41px;
+    margin: 0px -40px 0px -40px;
+    padding: 0px 25px 0px 25px;
+    color: #00baff;
+    position: relative;
+    z-index: 5;
+}
+
+.top-list:hover a {
+    color: #00baff;
+}
+
+span .top-name {
+    flex: 3;
+}
+
+span .top-level {
+    /* position: relative; */
+    flex: 2;
+    right: 0;
+    /* right: 35px; */
+}
+
+.top-class {
+    flex: 2;
+    left: 0;
+    /* position: relative;
+    display: block; */
+    /* left: 15px; */
+}

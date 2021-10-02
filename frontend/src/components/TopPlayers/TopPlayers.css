@@ -1,0 +1,132 @@
+.stat-block {
+    background: url(../../assets/images/stat-block-bg.jpg) center no-repeat;
+    height: 670px;
+    width: 398px;
+    position: relative;
+    padding: 165px 40px 40px 40px;
+    margin-bottom: 15px;
+}
+
+.stat-block h3 {
+    position: relative;
+    text-align: center;
+    color: #00fcff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.stat-block.server:before {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/server-status-bg.png) center no-repeat;
+    width: 493px;
+    height: 583px;
+    left: -197px;
+    top: -44px;
+}
+
+.stat-block.guilds-guilds:after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/top-guild-bg_1.png) center no-repeat;
+    width: 561px;
+    height: 527px;
+    right: 22px;
+    top: 7px;
+}
+
+.stat-block.guilds:after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/top-guild-bg.png) center no-repeat;
+    width: 561px;
+    height: 527px;
+    left: 22px;
+    top: 7px;
+}
+
+.block-4 {
+    /* width: 33%; */
+    /* margin: 0px 2px; */
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.top-block {
+    position: relative;
+    width: 100%;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+.top-block span {
+    display: block;
+}
+
+.top-block .top-number {
+    width: 20px;
+}
+
+.top-title {
+    color: #00fcff;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.top-block .top-flag {
+    width: 30px;
+    padding-top: 2px;
+}
+
+.top-block .top-name {
+    width: 162px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-block .top-lvl {
+    width: 80px;
+    position: relative;
+    display: block;
+    right: 30px;
+    /* right: 30px; 
+     */
+}
+
+.more-top {
+    left: 30%;
+    bottom: 55px;
+    position: absolute;
+}
+
+.button_top_block {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/button_top_block.jpg) center bottom
+        no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 18px 35px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 50%);
+    text-shadow: rgb(0 0 0 / 0.5) 1px 1px 1px;
+}
+
+.button_top_block:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    box-shadow: 0px 10px 30px 0px rgb(76 200 255 / 25%);
+}
+
+.top-block .top-Res {
+    position: relative;
+    display: block;
+    right: 35px;
+}

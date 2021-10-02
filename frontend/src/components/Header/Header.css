@@ -1,0 +1,406 @@
+header {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header {
+    min-height: 747px;
+    position: relative;
+}
+
+.logo_small {
+    top: 15px;
+    position: absolute;
+}
+.logo_small:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.menu-top {
+    text-align: center;
+    /* background: url(../../assets/images/menu-top-bg.png) bottom no-repeat; */
+    height: 130px;
+}
+.menu-top ul {
+    width: 600px;
+}
+.menu-top ul li {
+    display: inline-block;
+    margin: 0px 25px;
+    position: relative;
+}
+.menu-top ul li:hover {
+    /* background: url(../../assets/images/menu-top-active.png) center -1px no-repeat; */
+}
+.menu-top ul li ul {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -80px;
+    opacity: 0;
+    left: -9999px;
+    z-index: 9999;
+    width: 160px;
+    background-color: #050d1d;
+    border: 1px solid #1a2939;
+    padding: 20px 0px;
+    transition: 0.25s linear opacity;
+    box-shadow: 10px 10px 64px -16px rgba(0, 0, 0, 0.75);
+}
+.menu-top ul li ul:after {
+    content: "";
+    background: url(../../assets/images/menu-icon.png) no-repeat;
+    width: 22px;
+    height: 12px;
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+}
+.menu-top ul li ul li {
+    display: block;
+    margin: 0px 0px;
+    text-align: left;
+}
+.menu-top ul li ul li:hover {
+    background: none !important;
+}
+.menu-top ul li ul li .a {
+    text-transform: none;
+    padding: 8px 28px;
+    border-top: none !important;
+    color: #7a939d !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+.menu-top ul li ul li .a:hover {
+    color: #00ffae !important;
+    background-color: #171c35;
+}
+.menu-top ul li ul li .a:before {
+    content: ">";
+    padding-right: 10px;
+}
+.menu-top ul li .a {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 35px 10px;
+    display: block;
+    font-weight: bold;
+    border-top: 2px solid rgba(0, 0, 0, 0);
+}
+.menu-top ul li .a:hover {
+    border-top: 2px solid #00ffae;
+    text-shadow: 0px 0px 27px #171c35;
+    color: #00ffae;
+}
+.menu-top ul li:hover ul {
+    left: 50%;
+    opacity: 1;
+}
+.menu-top .active .a {
+    text-shadow: 0px 0px 27px #050d1d;
+    color: #00ffae;
+    border-top: 2px solid #00ffae;
+}
+.menu-top-left {
+    float: left;
+    padding-right: 50px;
+}
+.menu-top-right {
+    float: right;
+    padding-left: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+.right-menu-top {
+    padding-left: 150px;
+}
+.menu-top-left {
+    float: left;
+    padding-right: 50px;
+}
+
+.server-load {
+    position: absolute;
+    top: 0;
+    left: 455px;
+    background: url(../../assets/images/server-load-bg.png) no-repeat;
+    width: 304px;
+    height: 167px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 2px;
+}
+.server-load:after {
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    background: url(../../assets/images/online_1.png) no-repeat;
+    left: 134px;
+    bottom: 24px;
+}
+.server-load:before {
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    background: url(../../assets/images/offline_1.png) no-repeat;
+    left: 134px;
+    bottom: 24px;
+}
+
+.circle-online {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-top: 1px;
+    margin-top: 2px;
+}
+
+.serverInfo {
+    position: relative;
+    width: 110px;
+    height: 100px;
+    padding-top: 28px;
+}
+.serverInfo span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.serverInfo__name {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.serverInfo__online {
+    color: #00fcff;
+    font-size: 14px;
+    font-family: "Open Sans";
+}
+
+.circlestat.circliful {
+    position: absolute;
+    top: 0;
+}
+
+.accBlock {
+    position: absolute;
+    top: 18px;
+    right: -100px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 100%;
+}
+.avatar .a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #3697ce;
+    background: rgba(26, 21, 27, 0.8);
+    box-shadow: 0px 0px 10px 0px rgb(28 136 212 / 50%),
+        inset 0px 0px 10px 0px rgb(28 158 220 / 50%);
+    margin-right: 15px;
+}
+.avatar span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90px;
+    padding: 2px;
+}
+
+.acc-out .a {
+    background: url(../../assets/images/out-icon.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    display: block;
+}
+.acc-out .a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+button,
+.button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/bg-button.png) center bottom no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 26px 65px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    text-shadow: rgb(0 0 0 / 0.5) 1px 1px 1px;
+}
+
+button:hover,
+.button:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    color: #fff;
+}
+
+.topPanel__buttons a {
+    top: -95px;
+    left: 1100px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    transition: 0.3s;
+    z-index: 2;
+    margin-left: -40px;
+    top: 235px;
+}
+.logo:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.sparks-sparks {
+    left: 750px;
+    position: absolute;
+    top: 855px;
+}
+.sparks-1 {
+    background-image: url(../../assets/images/sparks-1.png);
+    width: 117px;
+    height: 136px;
+    right: 120px;
+    bottom: 0px;
+    background-position: left 0px bottom 0px;
+    animation-name: sparks-1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.sparks-2 {
+    background-image: url(../../assets/images/sparks-2.png);
+    width: 219px;
+    height: 176px;
+    right: 150px;
+    bottom: 30px;
+    background-position: left 0px bottom 0px;
+    animation-name: sparks-2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+.sparks-3 {
+    background-image: url(../../assets/images/sparks-3.png);
+    width: 438px;
+    height: 281px;
+    right: 100px;
+    bottom: 20px;
+    background-position: left 0px bottom 0px;
+    animation-name: sparks-3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes sparks-1 {
+    0% {
+        right: 200px;
+        bottom: 10px;
+        opacity: 0;
+    }
+    33% {
+        right: 210px;
+        bottom: 20px;
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    70% {
+        right: 220px;
+        bottom: 30px;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        right: 230px;
+        bottom: 40px;
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+@keyframes sparks-2 {
+    0% {
+        right: 210px;
+        bottom: 40px;
+        opacity: 0;
+    }
+    33% {
+        right: 220px;
+        bottom: 50px;
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    70% {
+        right: 230px;
+        bottom: 60px;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        right: 240px;
+        bottom: 70px;
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+@keyframes sparks-3 {
+    0% {
+        right: 120px;
+        bottom: 30px;
+        opacity: 0;
+    }
+    33% {
+        right: 140px;
+        bottom: 50px;
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    70% {
+        right: 160px;
+        bottom: 70px;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        right: 180px;
+        bottom: 90px;
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+.sparks {
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 0px;
+    position: absolute;
+}

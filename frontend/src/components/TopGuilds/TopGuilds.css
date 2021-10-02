@@ -1,0 +1,75 @@
+.stat-block.guilds-guilds:after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/top-guild-bg_1.png) center no-repeat;
+    width: 561px;
+    height: 527px;
+    right: 22px;
+    top: 7px;
+}
+
+.stat-block.guilds:after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/top-guild-bg.png) center no-repeat;
+    width: 561px;
+    height: 527px;
+    left: 22px;
+    top: 7px;
+}
+
+/* .stat-block {
+    background: url(../images/stat-block-bg.jpg) center no-repeat;
+    height: 670px;
+    width: 398px;
+    position: relative;
+    padding: 165px 40px 40px 40px;
+    margin-bottom: 15px;
+} */
+
+.stat-block h3 {
+    position: relative;
+    text-align: center;
+    color: #00fcff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.block-4 {
+    width: 33%;
+    margin: 0px 2px;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.top-block {
+    position: relative;
+    width: 100%;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+.top-block span {
+    display: block;
+}
+
+.top-block .top-number {
+    width: 20px;
+}
+
+.top-block .top-flag {
+    width: 30px;
+    padding-top: 2px;
+}
+
+.top-block .top-name {
+    width: 162px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-block .top-lvl {
+    width: 80px;
+}

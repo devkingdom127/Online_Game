@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ghost_fighters",
+  "info": {
+    "name": "GhostFighter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ghost_fighter": {
+      "type": "dynamiczone",
+      "components": [
+        "wiki.armor",
+        "wiki.hats",
+        "wiki.skills",
+        "wiki.vigi",
+        "wiki.weapons"
+      ]
+    }
+  }
+}

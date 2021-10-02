@@ -1,0 +1,104 @@
+.page-content {
+    width: 788px;
+    padding: 40px 40px 40px 40px;
+    background: url(../../assets/images/fon-page-top.jpg) center top no-repeat,
+        url(../../assets/images/fon-page-bottom.jpg) center bottom no-repeat,
+        url(../../assets/images/fon-page-center.jpg) center repeat-y;
+    position: relative;
+    min-height: 1354px;
+    margin-bottom: 15px;
+}
+
+.page-content:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -57px;
+    height: 67px;
+    width: 904px;
+    background: url(../../assets/images/fon-page-top.png) center top no-repeat;
+}
+
+.page-top {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00fcff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.page-title {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.page-title-time {
+    padding-top: 25px;
+    color: #acf8ff;
+}
+
+.page-title-time span {
+    font-size: 22px;
+}
+
+.page-title-news {
+    color: #00fcff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.text-text {
+    font-family: "Open Sans";
+}
+
+.page-text {
+    line-height: 20px;
+}
+
+.page-text p {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-text a {
+    color: #00fcff;
+    text-decoration: underline;
+}
+
+.page-text a:hover {
+    text-decoration: none;
+    color: #00baff;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr:nth-child(odd) {
+    background-color: "";
+}
+
+table {
+    width: 100%;
+}
+table td {
+    border-collapse: collapse;
+    padding: 4px;
+    border: 1px solid #043341;
+    text-align: center;
+}
+
+li {
+    text-decoration: none !important;
+    list-style: none;
+}
+
+.post-image {
+    width: 100%;
+}
+
+/*end page-content*/

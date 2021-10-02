@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_wiki_hats",
+  "info": {
+    "name": "Hats",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "attack_rating": {
+      "type": "integer"
+    },
+    "durability": {
+      "type": "integer"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "dexterity": {
+      "type": "integer"
+    }
+  }
+}

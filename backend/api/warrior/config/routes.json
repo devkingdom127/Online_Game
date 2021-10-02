@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/warriors",
+      "handler": "warrior.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/warriors/count",
+      "handler": "warrior.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/warriors/:id",
+      "handler": "warrior.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/warriors",
+      "handler": "warrior.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/warriors/:id",
+      "handler": "warrior.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/warriors/:id",
+      "handler": "warrior.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

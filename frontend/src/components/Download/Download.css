@@ -1,0 +1,140 @@
+.page-content {
+    width: 788px;
+    padding: 40px 40px 40px 40px;
+    background: url(../../assets/images/fon-page-top.jpg) center top no-repeat,
+        url(../../assets/images/fon-page-bottom.jpg) center bottom no-repeat,
+        url(../../assets/images/fon-page-center.jpg) center repeat-y;
+    position: relative;
+    min-height: 1354px;
+    margin-bottom: 15px;
+}
+
+.page-content:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -57px;
+    height: 67px;
+    width: 904px;
+    background: url(../../assets/images/fon-page-top.png) center top no-repeat;
+}
+
+.text-text {
+    font-family: "Open Sans";
+}
+
+.page-top {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00fcff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.page-title {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.page-title-time {
+    padding-top: 25px;
+    color: #acf8ff;
+}
+
+.page-title-time span {
+    font-size: 22px;
+}
+
+.page-title-news {
+    color: #00fcff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.page-text {
+    line-height: 20px;
+}
+
+.page-text p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.page-text a {
+    color: #00fcff;
+    text-decoration: underline;
+}
+
+.page-text a:hover {
+    text-decoration: none;
+    color: #00baff;
+}
+
+.downloadBlock {
+    text-align: center;
+    padding: 35px;
+    margin: 0px 35px;
+}
+
+.downloadBlock p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.download-block-1 {
+    margin-bottom: 40px;
+}
+.download-block-1:last-child {
+    margin-bottom: 0px;
+}
+
+.page-text-center {
+    text-align: center;
+}
+
+.client-text {
+    margin-right: 50px;
+    width: 255px;
+    height: 90px;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #16213a;
+}
+.client-text span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+    color: #00ffae;
+}
+
+.button_top_block {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/button_top_block.jpg) center bottom
+        no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 18px 35px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 50%);
+    text-shadow: rgb(0 0 0 / 0.5) 1px 1px 1px;
+}
+
+.button_top_block:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    box-shadow: 0px 10px 30px 0px rgb(76 200 255 / 25%);
+}
+.flex-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

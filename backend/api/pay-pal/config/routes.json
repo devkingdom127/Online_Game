@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pay-pals",
+      "handler": "pay-pal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-pals/count",
+      "handler": "pay-pal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-pals/:id",
+      "handler": "pay-pal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pay-pals",
+      "handler": "pay-pal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pay-pals/:id",
+      "handler": "pay-pal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pay-pals/:id",
+      "handler": "pay-pal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

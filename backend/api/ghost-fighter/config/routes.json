@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ghost-fighters",
+      "handler": "ghost-fighter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ghost-fighters/count",
+      "handler": "ghost-fighter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ghost-fighters/:id",
+      "handler": "ghost-fighter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ghost-fighters",
+      "handler": "ghost-fighter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ghost-fighters/:id",
+      "handler": "ghost-fighter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ghost-fighters/:id",
+      "handler": "ghost-fighter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

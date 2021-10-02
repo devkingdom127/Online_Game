@@ -1,0 +1,271 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background: url(./assets/images/fon-bg-top.jpg) center top no-repeat,
+        url(./assets/images/fon-bg-bottom.jpg) center bottom no-repeat;
+    background-color: #05060b;
+    font-family: "Candara", "Verdana";
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+a {
+    transition: all 0.3s ease;
+    color: #00fcff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    color: #ff68ff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 16px;
+}
+table {
+    width: 100%;
+}
+table td {
+    border-collapse: collapse;
+    padding: 4px;
+    border: 1px solid #043341;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: none;
+}
+caption {
+    margin-bottom: 15px;
+}
+
+textarea {
+    color: #043341;
+    position: relative;
+}
+
+.agree {
+    padding: 30px 40px 0px 40px;
+}
+
+.agree a {
+    color: #00ffae;
+    text-decoration: underline !important;
+}
+
+.agree a:hover {
+    text-decoration: none !important;
+}
+
+:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color: #00baff;
+    text-align: center;
+}
+::-moz-placeholder {
+    color: #043341;
+}
+:-moz-placeholder {
+    color: #043341;
+}
+:-ms-input-placeholder {
+    color: #043341;
+}
+
+#root {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.modal_div {
+    width: 437px;
+    min-height: 517px;
+    background: url(./assets/images/fon-modal-top.jpg) center top no-repeat,
+        url(./assets/images/fon-modal-bottom.jpg) center bottom no-repeat,
+        url(./assets/images/fon-modal-center.jpg) center repeat-y;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -212px;
+    display: none;
+    opacity: 0;
+    z-index: 199;
+}
+
+.modal_div:before {
+    content: "";
+    width: 466px;
+    min-height: 67px;
+    background: url(./assets/images/top-bg-modal.png) center top no-repeat;
+    position: absolute;
+    top: -25px;
+}
+
+#overlay {
+    z-index: 190;
+    position: fixed;
+    background-color: rgb(9 4 15 / 0.85);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}

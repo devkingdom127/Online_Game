@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pay_pals",
+  "info": {
+    "name": "PayPal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swordsmen",
+      "handler": "swordsman.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/swordsmen/count",
+      "handler": "swordsman.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/swordsmen/:id",
+      "handler": "swordsman.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/swordsmen",
+      "handler": "swordsman.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swordsmen/:id",
+      "handler": "swordsman.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swordsmen/:id",
+      "handler": "swordsman.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

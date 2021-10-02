@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=1240, maximum-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Xiah - Gaming website" />
+        <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+            rel="stylesheet"
+        />
+        <script src="https://www.paypal.com/sdk/js?client-id=AUcIT-t5CHGwgvqxi7opRKCu-GR8rTr6wzYRMjklHAos6KWBQD9DVDWTUVqv1Ph5neLtRP_ON0dHospN&currency=USD"></script>
+        <title>Xiah Legends</title>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <div id="resister" class="modal_div"></div>
+        <div id="login-login" class="modal_div"></div>
+        <div id="overlay"></div>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script>
+            $(".center").slick({
+                infinite: true,
+                centerMode: true,
+                centerPadding: "50px 30px",
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            });
+        </script>
+        <script>
+            $("#plus").click(function () {
+                var i = +$("#count").text() + 1;
+                $("#count").text(i);
+            });
+            $("#minus").click(function () {
+                var i = +$("#count").text() - 1;
+                $("#count").text(i);
+            });
+        </script>
+    </body>
+</html>

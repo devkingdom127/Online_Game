@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtube_videos",
+  "info": {
+    "name": "YoutubeVideo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "video_one": {
+      "type": "string"
+    },
+    "video_two": {
+      "type": "string"
+    },
+    "video_three": {
+      "type": "string"
+    },
+    "Video_one_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Video_two_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Video_three_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

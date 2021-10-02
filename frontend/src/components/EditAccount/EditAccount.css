@@ -1,0 +1,111 @@
+.page-content {
+    width: 788px;
+    padding: 40px 40px 40px 40px;
+    background: url(../../assets/images/fon-page-top.jpg) center top no-repeat,
+        url(../../assets/images/fon-page-bottom.jpg) center bottom no-repeat,
+        url(../../assets/images/fon-page-center.jpg) center repeat-y;
+    position: relative;
+    min-height: 1354px;
+    margin-bottom: 15px;
+}
+
+.page-content:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -57px;
+    height: 67px;
+    width: 904px;
+    background: url(../../assets/images/fon-page-top.png) center top no-repeat;
+}
+
+.page-top {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00fcff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.text-text {
+    font-family: "Open Sans";
+}
+.check_out_top {
+    margin-top: 40px;
+}
+.cart-Block-bottom p {
+    text-align: center;
+}
+.cart-Block-bottom-bt-top {
+    display: flex;
+    height: 67px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px -40px 2px -40px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.cart-link-centr-total {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.check_out_top-left input {
+    color: #00baff;
+    text-align: center;
+}
+.check_out_top-left {
+    display: grid;
+    text-align: center;
+}
+.check_out_top-left span {
+    margin-bottom: 23px;
+    text-transform: uppercase;
+}
+.check_out_input {
+    width: 352px;
+    height: 42px;
+    background-color: #000204;
+    border: 1px solid #0d233a;
+}
+
+.button_cart {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/button_top_block.jpg) center bottom
+        no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 17px 68px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 50%);
+    text-shadow: rgb(0 0 0 / 0.3) 1px 1px 2px;
+}
+.button_cart:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    box-shadow: 0px 10px 30px 0px rgb(76 200 255 / 25%);
+}
+.flex-s-c {
+    display: flex;
+    justify-content: space-between;
+}
+
+::-webkit-input-placeholder {
+    color: #00baff;
+    text-align: center;
+}
+::-moz-placeholder {
+    color: #043341;
+}
+:-moz-placeholder {
+    color: #043341;
+}
+:-ms-input-placeholder {
+    color: #043341;
+}

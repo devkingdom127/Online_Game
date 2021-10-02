@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "warriors",
+  "info": {
+    "name": "Warrior"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "worrior": {
+      "type": "dynamiczone",
+      "components": [
+        "wiki.armor",
+        "wiki.hats",
+        "wiki.skills",
+        "wiki.vigi",
+        "wiki.weapons"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/youtube-videos",
+      "handler": "youtube-video.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/youtube-videos/count",
+      "handler": "youtube-video.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/youtube-videos/:id",
+      "handler": "youtube-video.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/youtube-videos",
+      "handler": "youtube-video.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/youtube-videos/:id",
+      "handler": "youtube-video.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/youtube-videos/:id",
+      "handler": "youtube-video.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

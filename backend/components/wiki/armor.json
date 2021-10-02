@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_wiki_armors",
+  "info": {
+    "name": "Armor",
+    "icon": "candy-cane"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "defense": {
+      "type": "integer"
+    },
+    "durability": {
+      "type": "integer"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "stamina": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.footer {
+    display: block;
+}
+
+.toTop-fon {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.toTop {
+    background: url(../../assets/images/fon-circle.png) no-repeat;
+    width: 1200px;
+    height: 144px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.3s;
+}
+
+.toTop:hover {
+    -webkit-filter: brightness(140%);
+    filter: brightness(140%);
+    transition: 0.3s;
+}
+
+.footer-block-t {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.f-menu li {
+    display: inline-block;
+    margin: 15px 23px;
+}
+
+.f-menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+}
+
+.f-menu li a:hover {
+    color: #80f9d2;
+}
+
+.f-menu li a:active {
+    color: #e39f45;
+    font-weight: bold;
+}
+
+.footer-end{
+    text-align: center;
+    margin-top: 36px;
+  }
+  
+  .footer-block-coperite a{
+    color: #fff;
+  }
+  
+  .copyright{
+    font-size: 13px;
+    margin-bottom: 55px;
+    color: #88fff2;
+    font-family: 'Arial';
+  }
+  
+  .footer-block-coperite a:hover{
+    text-decoration: underline;
+  }
+  
+  .footer-logo a{
+    text-align:center;
+    padding-bottom: 50px;
+  }
+  
+  .footer-logo{
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo a:hover{
+    -webkit-filter: brightness(120%); 
+    filter: brightness(120%);
+  }

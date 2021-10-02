@@ -1,0 +1,225 @@
+.wiki-page-content {
+    width: 1200px;
+    padding: 40px 40px 40px 40px;
+    background: #060d1f;
+    position: relative;
+    min-height: 1354px;
+    margin-bottom: 15px;
+}
+
+.wiki-page-content:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -57px;
+    height: 67px;
+    width: 1335px;
+    background: url(../../assets/images/fon-top-content_1.png) center top
+        no-repeat;
+}
+
+.text-text {
+    font-family: "Open Sans";
+}
+
+.page-top {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00fcff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.flex-s-c {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-text {
+    line-height: 20px;
+}
+
+.page-text p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.page-text a {
+    color: #00fcff;
+    text-decoration: underline;
+}
+
+.page-text a:hover {
+    text-decoration: none;
+    color: #00baff;
+}
+
+.menu-news-n {
+    padding-bottom: 21px;
+    margin-top: 80px;
+    border-bottom: 1px solid #1e2634;
+    text-transform: uppercase;
+}
+.menu-news {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-news li .a {
+    font-size: 16px;
+    color: #70cbff;
+    padding: 18px 30px 20px 30px;
+    text-decoration: none;
+    margin-right: 1px;
+}
+
+.menu-news li .a:hover {
+    color: #fff;
+    background: linear-gradient(to top, #151b38 0%, rgb(15 49 84));
+    padding: 18px 30px 20px 30px;
+    transition: 0.3s;
+}
+
+.active-news li .a:hover:after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    color: #fff;
+    position: absolute;
+    background: linear-gradient(to top, #151b38 0%, rgb(15 49 84));
+}
+
+.menu-news .active-news .a {
+    color: #fff;
+    background: linear-gradient(to top, #151b38 0%, rgb(15 49 84));
+    padding: 18px 30px 20px 30px;
+}
+
+.menu-news li:before {
+    content: "";
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(to top, #151b38 0%, rgb(15 49 84));
+}
+
+.menu-news .a:after {
+    content: "";
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(to top, #151b38 0%, rgb(15 49 84));
+}
+
+.page-text-center {
+    text-align: center;
+}
+.wiki-menu-tab {
+    margin-top: 45px;
+}
+
+.weapons-img-tab .a {
+    display: flex;
+    justify-content: center;
+    height: 173px;
+    width: 173px;
+    background: url(../../assets/images/wiki_menu_tab.jpg) no-repeat;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 0.25);
+    transition: 0.3s;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.weapons-img-tab .a:hover {
+    box-shadow: 0px 5px 10px 0px rgb(76 200 255 / 20%);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.table-items {
+    margin-top: 30px;
+}
+.table-items th {
+    border: 1px solid #043745;
+    padding: 15px 4px;
+    color: #fff;
+    font-size: 14px;
+}
+.table-items td {
+    border: 1px solid #043745;
+    text-align: center;
+    padding: 10px 4px;
+}
+.table-items tr:nth-child(1) {
+    background: #051424;
+}
+.table-items-tr {
+    background: #051424;
+}
+.table-items .content-shop-item-img {
+    margin-bottom: 0px;
+}
+
+.table-items .content-shop-item-img {
+    margin-bottom: 0px;
+}
+.content-shop-item-img {
+    background: url(../../assets/images/item-shop-1-bg.jpg) no-repeat;
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-page {
+    margin-top: 45px;
+}
+
+.item-categories {
+    flex-wrap: wrap;
+}
+
+.item-categories span {
+    margin-bottom: 6px;
+}
+
+.back-button {
+    cursor: pointer;
+    color: #00fcff;
+    padding: 10px 16px;
+    background-color: #060d1f;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid #00fcff;
+    text-align: center;
+    width: fit-content;
+}
+
+.class-table-content {
+    margin-bottom: 60px;
+}
+
+.class-table-title {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.button_active {
+    transform: scale(1.1);
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    box-shadow: 0px 10px 30px 0px rgb(76 200 255 / 25%);
+}
+
+.button_inactive:hover {
+    transform: scale(1.1);
+}

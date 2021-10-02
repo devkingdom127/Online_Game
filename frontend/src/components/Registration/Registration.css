@@ -1,0 +1,110 @@
+/* html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+} */
+
+.modal-content form p {
+    color: #fff;
+}
+
+.modal-content {
+    text-align: center;
+    color: #e7c195;
+    /* max-height: 85vh;
+    overflow-y: auto; */
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.modal-content h2 span {
+    text-transform: uppercase;
+    color: #00ffae;
+}
+
+.input-re_1 {
+    background: url(../../assets/images/icon_modal_user.png) no-repeat;
+    height: 88px;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-re_2 {
+    background: url(../../assets/images/icon_modal_password.png) no-repeat;
+    height: 88px;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-re_3 {
+    background: url(../../assets/images/icon_modal_email.png) no-repeat;
+    height: 88px;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.agree {
+    padding: 30px 40px 0px 40px;
+}
+
+.agree a {
+    color: #00ffae;
+    text-decoration: underline !important;
+}
+
+.agree a:hover {
+    text-decoration: none !important;
+}
+
+.formButton {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.formGroup.check::before {
+    content: none;
+}
+
+/* button,
+.button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/bg-button.png) center bottom no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 26px 65px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    text-shadow: rgb(0 0 0 / 0.5) 1px 1px 1px;
+} */
+
+/* button:hover,
+.button:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    color: #fff;
+} */

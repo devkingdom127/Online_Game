@@ -1,0 +1,159 @@
+.fast-button {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.download-block {
+    display: flex;
+    height: 125px;
+    width: 398px;
+    background: url(../../assets/images/download-button.jpg) no-repeat;
+    font-family: "Roboto";
+}
+
+.download-block .a {
+    padding-left: 172px;
+    padding-top: 40px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.download-block span {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 0.3) 1px 1px 2px;
+    font-size: 32px;
+}
+
+.download-block p {
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 5px;
+    color: #27272a;
+    text-shadow: rgb(255 255 255 / 50%) -1px 1px 0px;
+}
+
+.download-block:hover {
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%);
+}
+
+.regisrtation-block {
+    display: flex;
+    height: 125px;
+    width: 398px;
+    margin-left: 2px;
+    background: url(../../assets/images/regisrtation-button.jpg) no-repeat;
+    font-family: "Roboto";
+}
+
+.regisrtation-block .a {
+    padding-left: 150px;
+    padding-top: 40px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.regisrtation-block span {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 0.3) 1px 1px 2px;
+    font-size: 32px;
+}
+
+.regisrtation-block p {
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 5px;
+    color: #27272a;
+    text-shadow: rgb(255 255 255 / 50%) -1px 1px 0px;
+}
+
+.regisrtation-block:hover {
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%);
+}
+
+.account-block {
+    display: flex;
+    height: 125px;
+    width: 398px;
+    margin-left: 2px;
+    background: url(../../assets/images/account-button.jpg) no-repeat;
+    font-family: "Roboto";
+}
+
+.account-block .a {
+    padding-left: 160px;
+    padding-top: 40px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.account-block span {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 0.3) 1px 1px 2px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.account-block p {
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 5px;
+    color: #27272a;
+    text-shadow: rgb(255 255 255 / 50%) -1px 1px 0px;
+}
+
+.account-block:hover {
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%);
+}
+
+.net-block {
+    width: 398px;
+    height: 125px;
+    background: url(../../assets/images/fon-net.png) no-repeat;
+    position: relative;
+    margin-left: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.net-block .a {
+    display: flex;
+    align-items: center;
+    width: 198px;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+    font-weight: bold;
+}
+
+.net-block div {
+    background: url(../../assets/images/soc-icon-bg.png) no-repeat;
+    width: 64px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.net-block .a:hover {
+    padding-left: 25px;
+    color: #80f9d2;
+}
+.net-block .a:hover div {
+    filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.3)) brightness(120%);
+}

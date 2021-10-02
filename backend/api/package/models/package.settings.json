@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "name": "Package",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "coin": {
+      "type": "integer",
+      "required": true
+    },
+    "bonus_coin": {
+      "type": "integer",
+      "default": 0
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_pages_headers",
+  "info": {
+    "name": "Header",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "hamburger_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "item1": {
+      "type": "string"
+    },
+    "item2": {
+      "type": "string"
+    },
+    "item3": {
+      "type": "string"
+    },
+    "item4": {
+      "type": "string"
+    },
+    "item5": {
+      "type": "string"
+    }
+  }
+}

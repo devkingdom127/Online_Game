@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_links",
+  "info": {
+    "name": "DownloadLink"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Full client"
+    },
+    "Website": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

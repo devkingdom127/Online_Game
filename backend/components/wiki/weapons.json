@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_wiki_weapons",
+  "info": {
+    "name": "weapons",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "damage": {
+      "type": "integer"
+    },
+    "durability": {
+      "type": "integer"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "energy": {
+      "type": "integer"
+    },
+    "strength": {
+      "type": "integer"
+    }
+  }
+}

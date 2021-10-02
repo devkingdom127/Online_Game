@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_uis",
+  "info": {
+    "name": "gameUi",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "instructions": {
+      "type": "richtext"
+    }
+  }
+}

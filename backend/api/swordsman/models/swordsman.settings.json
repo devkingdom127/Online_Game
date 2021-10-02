@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "swordsmen",
+  "info": {
+    "name": "Swordsman"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "wiki.armor",
+        "wiki.hats",
+        "wiki.skills",
+        "wiki.vigi",
+        "wiki.weapons"
+      ]
+    }
+  }
+}

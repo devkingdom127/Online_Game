@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/character-names",
+      "handler": "character-name.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/character-names/count",
+      "handler": "character-name.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/character-names/:id",
+      "handler": "character-name.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/character-names",
+      "handler": "character-name.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/character-names/:id",
+      "handler": "character-name.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/character-names/:id",
+      "handler": "character-name.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

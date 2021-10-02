@@ -1,0 +1,111 @@
+.modal-content form p {
+    color: #fff;
+}
+
+.modal-content {
+    text-align: center;
+    color: #e7c195;
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.modal-content h2 span {
+    text-transform: uppercase;
+    color: #00ffae;
+}
+
+.formGroup {
+    position: relative;
+}
+
+.formGroup:before {
+    content: "";
+    position: absolute;
+    bottom: 21px;
+    left: 44px;
+    height: 36px;
+    width: 350px;
+    background: url(../../assets/images/fon-error.png) no-repeat;
+    z-index: 10;
+}
+
+.input-re_1 {
+    background: url(../../assets/images/icon_modal_user.png) no-repeat;
+    height: 88px;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.errorGroup {
+    background: url(../../assets/images/wrong-icon.png) left 20px top 17px
+        no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 17px 20px 17px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    line-height: 1.5;
+    font-size: 13px;
+    text-align: left;
+    position: absolute;
+    left: 88%;
+    top: 18px;
+    min-width: 330px;
+    color: #fff;
+    margin-left: 30px;
+}
+.errorGroup:before {
+    content: "";
+    border: 8px solid transparent;
+    border-right-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -7px;
+}
+
+.input-re_2 {
+    background: url(../../assets/images/icon_modal_password.png) no-repeat;
+    height: 88px;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.formButton {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button,
+.button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../../assets/images/bg-button.png) center bottom no-repeat;
+    color: #fff;
+    position: relative;
+    padding: 26px 65px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    text-shadow: rgb(0 0 0 / 0.5) 1px 1px 1px;
+}
+
+button:hover,
+.button:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    color: #fff;
+}

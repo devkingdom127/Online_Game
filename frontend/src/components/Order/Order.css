@@ -1,0 +1,90 @@
+.page-content {
+    width: 788px;
+    padding: 40px 40px 40px 40px;
+    background: url(../../assets/images/fon-page-top.jpg) center top no-repeat,
+        url(../../assets/images/fon-page-bottom.jpg) center bottom no-repeat,
+        url(../../assets/images/fon-page-center.jpg) center repeat-y;
+    position: relative;
+    min-height: 1354px;
+    margin-bottom: 15px;
+}
+
+.page-content:after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -57px;
+    height: 67px;
+    width: 904px;
+    background: url(../../assets/images/fon-page-top.png) center top no-repeat;
+}
+
+.text-text {
+    font-family: "Open Sans";
+}
+
+.page-top {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00fcff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.page-text p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.page-text a {
+    color: #00fcff;
+    text-decoration: underline;
+}
+
+.page-text a:hover {
+    text-decoration: none;
+    color: #00baff;
+}
+
+.page-text-center {
+    text-align: center;
+}
+
+.table-items {
+    margin-top: 50px;
+}
+.table-items th {
+    border: 1px solid #043745;
+    padding: 15px 4px;
+    color: #fff;
+    font-size: 14px;
+}
+.table-items td {
+    border: 1px solid #043745;
+    text-align: center;
+    padding: 10px 4px;
+}
+.table-items tr:nth-child(1) {
+    background: #051424;
+}
+.table-items-tr {
+    background: #051424;
+}
+.table-items .content-shop-item-img {
+    margin-bottom: 0px;
+}
+
+.content-shop-item-img {
+    background: url(../../assets/images/item-shop-1-bg.jpg) no-repeat;
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

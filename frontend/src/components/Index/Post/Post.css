@@ -1,0 +1,21 @@
+.news {
+    height: 42px;
+    margin: 0px -40px 0px -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+}
+
+.news .a {
+    width: 400px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.flex-s-c {
+    display: flex;
+    justify-content: space-between;
+}

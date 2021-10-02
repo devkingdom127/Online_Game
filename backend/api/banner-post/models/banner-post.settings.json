@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_posts",
+  "info": {
+    "name": "BannerPost"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "event": {
+      "model": "event"
+    },
+    "newsitem": {
+      "model": "newsitem"
+    }
+  }
+}

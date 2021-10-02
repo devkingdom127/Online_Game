@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mages",
+  "info": {
+    "name": "Mage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mage_components": {
+      "type": "dynamiczone",
+      "components": [
+        "wiki.armor",
+        "wiki.hats",
+        "wiki.skills",
+        "wiki.vigi",
+        "wiki.weapons"
+      ]
+    }
+  }
+}
